@@ -39,6 +39,14 @@ python train.py --data coco128.yaml --weights yolov5s.pt --epochs 100 --batch-si
 
 Current best model is saved in best_model folder
 
+📷 Streamlit App
+```bash
+# Run Streamlit dashboard
+run streamlit_app.py
+```
+Upload image
+
+See bounding boxes and confidence
 
 📊 Evaluation
 
@@ -50,21 +58,12 @@ Current best model is saved in best_model folder
 
 ✅ Recall: 83.1%
 
-📷 Streamlit App
-```bash
-# Run Streamlit dashboard
-streamlit run streamlit_app.py
-```
-Upload image
-
-See bounding boxes and confidence
-
 
 🧠 Technical Summary
 
 | Setting    | Value                         |
 | ---------- | ----------------------------- |
 | Model      | YOLOv5s (pretrained)          |
-| Epochs     | 99                            |
+| Epochs     | 30                            |
 | Batch size | 16                            |
 | GPU Used   | RTX 3090                      |
