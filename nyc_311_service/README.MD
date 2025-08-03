@@ -27,6 +27,8 @@ All insights are presented in a user-friendly, interactive dashboard using **Str
 | `submission.csv` | Forecasted call volume (for competition) |
 | `anomalies.csv` | Top anomalies (spikes and dips in call volume) |
 | `README.md` | Project documentation (this file) |
+| 'demo.webm' | Demonstration of our Dashboard |
+| 'requirements.txt' | Requested libraries to reproduce our results|
 
 ---
 
