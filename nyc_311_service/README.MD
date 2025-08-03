@@ -6,6 +6,10 @@ An interactive data visualization tool for analyzing 311 service requests in New
 
 ## 🚀 Project Overview
 
+## 🎬 Demo Video
+
+[Click here to watch the demo](./demo.webm)
+
 This dashboard was built for the **NYC 311 Insights Challenge**, aiming to:
 
 - 📞 Forecast daily 311 call volume  
