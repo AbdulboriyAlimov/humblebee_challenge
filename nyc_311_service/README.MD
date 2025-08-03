@@ -24,6 +24,17 @@ All insights are presented in a user-friendly, interactive dashboard using **Str
 
 ## 📁 File Structure
 
+To keep the repository size lightweight, all datasets (~2GB) are hosted externally.
+
+📥 **Download the datasets from this Google Drive folder:**
+
+[🔗 NYC 311 Dataset Folder (Google Drive)](https://drive.google.com/drive/folders/1cBQeMNLygLgwZ4s8O_JavRl1dmvwkly0?usp=sharing)
+
+After downloading:
+
+1. Place all CSV files (e.g., `daily_features.csv`, `geo_requests.csv`, etc.) into the `nyc_311_service/` directory.
+2. Ensure file names and formats are not changed.
+
 | File | Description |
 |------|-------------|
 | `app.py` | Main Streamlit app |
