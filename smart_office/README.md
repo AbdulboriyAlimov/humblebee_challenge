@@ -77,4 +77,3 @@ Model auto-loads best.pt
 | Epochs     | 99                            |
 | Batch size | 16                            |
 | GPU Used   | RTX 3090                      |
-| Classes    | 5 (keyboard, laptop, monitor, person, smartphone) |
