@@ -19,6 +19,12 @@ This dashboard was built for the **NYC 311 Insights Challenge**, aiming to:
 - 📅 Explore complaint trends over time  
 
 All insights are presented in a user-friendly, interactive dashboard using **Streamlit** and **Plotly**.
+---
+
+## 📄 Project Report
+
+The detailed project report is available online:  
+[View the NYC 311 Insights Challenge Report (Google Docs)](https://docs.google.com/document/d/1Q3DLnaxCJmABePq-903lM7xeKP1xCpmExxwm58mK-do/edit?usp=sharing)
 
 ---
 
