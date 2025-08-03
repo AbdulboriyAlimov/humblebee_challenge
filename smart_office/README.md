@@ -15,12 +15,15 @@ This project trains a custom YOLOv5 model to detect common office objects such a
 
 ## 🗃️ Dataset Info
 
-- 📦 Source: [Roboflow.com](https://universe.roboflow.com/jeongcj-zi66f/office-object-k7u5n/dataset/1)
-- 📁 Info: Different datsets based on their categories have been merged into one according to their quality
-- 🏷 Classes: `keyboard`, `laptop`, `monitor`, `person` and `smartphone`
-- 🖼 Format: YOLO (images + labels)
-- 🧪 ~14000+ images in total (train/val/test split)
+This project uses the COCO128 dataset for training and validation. It is a small subset of the COCO dataset commonly used for quick experiments and model prototyping.
 
+COCO128 YAML file used: data/coco128.yaml
+
+It includes 128 training and validation images with 80 common object classes.
+
+There is no need to download this dataset just write the command below and it will be downloaded automatically
+
+python train.py --data coco128.yaml --weights yolov5s.pt --epochs 100 --batch-size 16
 ---
 
 ## 🏋️‍♂️ Model Training
@@ -51,13 +54,13 @@ python val.py \
   --data ../data/office_object_dataset/data.yaml \
   --img 640
 
-✅ mAP@0.5: 89.4%
+✅ mAP@0.5: 90.4%
 
-✅ mAP@0.5:0.95: 69.2%
+✅ mAP@0.5:0.95: 68.2%
 
-✅ Precision: 82.3%
+✅ Precision: 90.7%
 
-✅ Recall: 90.8%
+✅ Recall: 83.1%
 
 📷 Streamlit App
 # Run Streamlit dashboard
