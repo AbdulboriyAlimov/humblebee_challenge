@@ -82,6 +82,15 @@ After downloading:
 
     Line chart showing call trends over time
 
+## 📈 Model Performance
+
+The forecasting model (XGBoost Regressor) was trained on 2024 data and validated on early 2025 (January–March).
+
+| Metric              | Value     |
+|---------------------|-----------|
+| Validation RMSE     | 787.03    |
+| Validation MAPE     | 7.70%     |
+
 ## 📊 Complaint Type Breakdown
 
     Bar chart summarizing complaint categories
