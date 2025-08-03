@@ -42,37 +42,37 @@ All insights are presented in a user-friendly, interactive dashboard using **Str
 3. streamlit run app.py
 
 
-##📊 Dashboard Features
+## 📊 Dashboard Features
 
-✅ Filters
+## ✅ Filters
 
     Date Range
 
     Boroughs
 
-🗺️ Request Density Map
+## 🗺️ Request Density Map
 
     Interactive NYC map with spatial complaint density
 
-📈 Daily Call Volume
+## 📈 Daily Call Volume
 
     Line chart showing call trends over time
 
-📊 Complaint Type Breakdown
+## 📊 Complaint Type Breakdown
 
     Bar chart summarizing complaint categories
 
-🏙️ Borough-wise Distribution
+## 🏙️ Borough-wise Distribution
 
     Pie chart of request counts per borough
 
-📌 Anomalies CSV
+## 📌 Anomalies CSV
 
     Identifies top 5 spikes and dips in 311 volume
 
     Flags holidays in the "Note" column automatically
 
-📦 Tech Stack
+## 📦 Tech Stack
 
     Python
 
