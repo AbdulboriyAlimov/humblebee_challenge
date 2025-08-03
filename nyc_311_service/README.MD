@@ -61,9 +61,11 @@ After downloading:
    git clone https://github.com/AbdulboriyAlimov/humblebee_challenge.git
    cd humblebee_challenge/nyc_311_service
 
-2. pip install -r requirements.txt
+2. ```bash
+   pip install -r requirements.txt
 
-3. streamlit run app.py
+3. ```bash
+   streamlit run app.py
 
 
 ## 📊 Dashboard Features
