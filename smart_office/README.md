@@ -1,6 +1,6 @@
 # 🧠 Smart Office Object Detection with YOLOv5
 
-This project trains a custom YOLOv5 model to detect common office objects such as `person`, `chair`, `cup`, and `phone`. It uses a merged dataset (Roboflow + COCO-style), and results are visualized through a Streamlit dashboard.
+This project trains a custom YOLOv5 model to detect common office objects such as keyboard, laptop, monitor, person and smartphone. It uses a merged dataset (Roboflow + COCO-style), and results are visualized through a Streamlit dashboard.
 
 ---
 
