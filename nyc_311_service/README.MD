@@ -36,3 +36,52 @@ All insights are presented in a user-friendly, interactive dashboard using **Str
    ```bash
    git clone https://github.com/your-username/nyc-311-dashboard.git
    cd nyc-311-dashboard
+
+2. pip install -r requirements.txt
+
+3. streamlit run app.py
+
+
+##📊 Dashboard Features
+
+✅ Filters
+
+    Date Range
+
+    Boroughs
+
+🗺️ Request Density Map
+
+    Interactive NYC map with spatial complaint density
+
+📈 Daily Call Volume
+
+    Line chart showing call trends over time
+
+📊 Complaint Type Breakdown
+
+    Bar chart summarizing complaint categories
+
+🏙️ Borough-wise Distribution
+
+    Pie chart of request counts per borough
+
+📌 Anomalies CSV
+
+    Identifies top 5 spikes and dips in 311 volume
+
+    Flags holidays in the "Note" column automatically
+
+📦 Tech Stack
+
+    Python
+
+    Streamlit
+
+    Plotly
+
+    Pandas
+
+    XGBoost
+
+    scikit-learn
