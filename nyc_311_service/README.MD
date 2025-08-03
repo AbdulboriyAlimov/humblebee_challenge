@@ -2,13 +2,14 @@
 
 An interactive data visualization tool for analyzing 311 service requests in New York City — with forecasting, anomaly detection, and spatial breakdown.
 
----
-
-## 🚀 Project Overview
 
 ## 🎬 Demo Video
 
 [Click here to watch the demo](./demo.webm)
+---
+
+## 🚀 Project Overview
+
 
 This dashboard was built for the **NYC 311 Insights Challenge**, aiming to:
 
