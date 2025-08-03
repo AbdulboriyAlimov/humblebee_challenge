@@ -40,9 +40,9 @@ python train.py --data coco128.yaml --weights yolov5s.pt --epochs 100 --batch-si
 Current best model is saved in best_model folder
 
 📷 Streamlit App
-Navigate to dashboard folder and run Streamlit
+
 ```bash
-# Run Streamlit dashboard
+# Navigate to dashboard folder and run Streamlit
 streamlit run app.py
 ```
 Upload image
