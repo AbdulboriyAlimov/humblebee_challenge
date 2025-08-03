@@ -7,7 +7,7 @@ import os
 # Load model
 @st.cache_resource
 def load_model():
-    model = torch.hub.load('yolov5', 'custom', path='yolov5/runs/train/exp2/weights/best.pt', source='local')
+    model = torch.hub.load('yolov5', 'custom', path='best_model/best.pt', source='local')
     return model
 
 model = load_model()

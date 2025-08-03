@@ -17,13 +17,10 @@ This project trains a custom YOLOv5 model to detect common office objects such a
 
 This project uses the COCO128 dataset for training and validation. It is a small subset of the COCO dataset commonly used for quick experiments and model prototyping.
 
-COCO128 YAML file used: data/coco128.yaml
-
 It includes 128 training and validation images with 80 common object classes.
 
 There is no need to download this dataset just write the command below and it will be downloaded automatically
 
-python train.py --data coco128.yaml --weights yolov5s.pt --epochs 100 --batch-size 16
 ---
 
 ## 🏋️‍♂️ Model Training
@@ -35,13 +32,8 @@ cd yolov5
 pip install -r requirements.txt
 
 # 2. Train
-python train.py \
-  --img 640 \
-  --batch 16 \
-  --epochs 99 \
-  --data ../data/merged/data.yaml \
-  --weights yolov5s.pt \
-  --name smart_office_combined
+python train.py --data coco128.yaml --weights yolov5s.pt --epochs 100 --batch-size 16
+```
 
 ✅ Best model saved: runs/train/smart_office_combined/weights/best.pt
 
@@ -49,10 +41,6 @@ Current best model is saved in best_model folder
 
 
 📊 Evaluation
-python val.py \
-  --weights runs/train/smart_office_combined/weights/best.pt \
-  --data ../data/office_object_dataset/data.yaml \
-  --img 640
 
 ✅ mAP@0.5: 90.4%
 
@@ -63,14 +51,14 @@ python val.py \
 ✅ Recall: 83.1%
 
 📷 Streamlit App
+```bash
 # Run Streamlit dashboard
 streamlit run streamlit_app.py
-
+```
 Upload image
 
 See bounding boxes and confidence
 
-Model auto-loads best.pt
 
 🧠 Technical Summary
 
