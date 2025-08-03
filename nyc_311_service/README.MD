@@ -41,8 +41,8 @@ All insights are presented in a user-friendly, interactive dashboard using **Str
 
 1. Clone the repository and navigate to the folder:
    ```bash
-   git clone https://github.com/your-username/nyc-311-dashboard.git
-   cd nyc-311-dashboard
+   git clone https://github.com/AbdulboriyAlimov/humblebee_challenge.git
+   cd humblebee_challenge/nyc_311_service
 
 2. pip install -r requirements.txt
 
