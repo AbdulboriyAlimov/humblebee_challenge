@@ -4,11 +4,6 @@ This project trains a custom YOLOv5 model to detect common office objects such a
 
 ---
 
-## 📁 Project Structure
-
-
----
-
 ## 🚀 Features
 
 - YOLOv5s fine-tuned on custom-labeled office data
@@ -20,18 +15,19 @@ This project trains a custom YOLOv5 model to detect common office objects such a
 
 ## 🗃️ Dataset Info
 
-- 📦 Source: [Roboflow Office Object Dataset v1](https://universe.roboflow.com/jeongcj-zi66f/office-object-k7u5n/dataset/1)
-- 🏷 Classes: `person`, `chair`, `cup`, `phone`
+- 📦 Source: [Roboflow.com](https://universe.roboflow.com/jeongcj-zi66f/office-object-k7u5n/dataset/1)
+- 📁 Info: Different datsets based on their categories have been merged into one according to their quality
+- 🏷 Classes: `keyboard`, `laptop`, `monitor`, `person` and `smartphone`
 - 🖼 Format: YOLO (images + labels)
-- 🧪 ~600+ images in total (train/val/test split)
+- 🧪 ~14000+ images in total (train/val/test split)
 
 ---
 
 ## 🏋️‍♂️ Model Training
 
 ```bash
-# 1. Install YOLOv5 dependencies
-
+# 1. Clone YOLOv5 and install dependencies
+git clone https://github.com/ultralytics/yolov5.git
 cd yolov5
 pip install -r requirements.txt
 
@@ -45,6 +41,8 @@ python train.py \
   --name smart_office_combined
 
 ✅ Best model saved: runs/train/smart_office_combined/weights/best.pt
+
+Current best model is saved in best_model folder
 
 
 📊 Evaluation
